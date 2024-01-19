@@ -88,16 +88,16 @@ cursor: pointer;
 	text-align: left;
 	/*background-color: #04AA6D;*/
 	color: white;
-	font-size: 20px;
+	font-size: 24px;
 	white-space: normal;
 } 
 
 .timetable input{
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .timetable button{
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .timetable tr{

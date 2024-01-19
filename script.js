@@ -22,7 +22,7 @@ xhttpr.onload = ()=> {
 				specialDeparture = "<br><p style='font-size: 75%;color: #FFEC31;margin: 0px 0px'>特別班</p>";
 			}
 			x = x + "<tr><td>" + list[i]["route"] + specialDeparture + "</td><td>";
-			x = x + "<button class='btnOrigin' type='button' onclick=\"routeStop('" + list[i]["route"] + "', '" + dir + "', '" + list[i]["service_type"] + "')\"><p style='font-size: 75%;margin: 0px 0px'>" + list[i]["orig_tc"] + "</p><p style='margin: 0px 0px'>往： " + list[i]["dest_tc"] + "</p></button></td></tr>";
+			x = x + "<button class='btnOrigin' type='button' onclick=\"routeStop('" + list[i]["route"] + "', '" + dir + "', '" + list[i]["service_type"] + "')\"><p style='font-size: 75%;margin: 0px 0px'>" + list[i]["orig_tc"] + "</p><p style='margin: 0px 0px'><span style='font-size: 75%'>往</span> " + list[i]["dest_tc"] + "</p></button></td></tr>";
 		}
 		
 		document.getElementById("listTable").innerHTML = x;
